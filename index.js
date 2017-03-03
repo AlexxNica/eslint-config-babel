@@ -9,7 +9,7 @@ module.exports = {
     "comma-dangle": ["error", "always-multiline"],
     "comma-spacing": "error",
     "consistent-return": "off",
-    curly: "off",
+    curly: ["error", "multi-line"],
     "func-call-spacing": "error",
     indent: ["error", 2, {
       SwitchCase: 1,
